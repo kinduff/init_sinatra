@@ -4,5 +4,7 @@
     %title Init Sinatra
     %link{:href => "css/style.css", :rel => "stylesheet", :type => "text/css"}
   %body
-    = yield
+    #main
+      %p=link_to 'Home', '/'
+      = yield
     %script{src:'js/script.js'}

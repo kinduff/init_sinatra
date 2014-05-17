@@ -1,1 +1,52 @@
-%h1 It works!
+%h1 Init Sinatra
+%p Simple base for Sinatra Apps.
+%h2 Includes
+%table
+  %tr
+    %th Framework
+    %td Sinatra
+  %tr
+    %th Server
+    %td Thin
+  %tr
+    %th HTML
+    %td HAML
+  %tr
+    %th CSS
+    %td SASS
+  %tr
+    %th Javascript
+    %td CoffeeScript
+  %tr
+    %th Database
+    %td PostgreSQL
+  %tr
+    %th Models
+    %td Yes
+  %tr
+    %th Helpers
+    %td Yes
+  %tr
+    %th ActiveRecord
+    %td Yes
+  %tr
+    %th Test
+    %td RSpec
+%h2#install Install
+%p Clone the repo and start coding.
+%pre
+  %code.sh
+    :preserve
+        $ git clone git://github.com/kinduff/init_sinatra.git myapp
+        $ bundle install
+        $ shotgun
+%h2#tests Tests
+%p
+  Write your tests at
+  = succeed "." do
+    %code ./spec/app_spec.rb
+  Run with:
+%pre
+  %code.sh
+    :preserve
+        $ rake spec

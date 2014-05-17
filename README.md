@@ -5,9 +5,9 @@ Simple base for Sinatra Apps.
 
 ## Includes
 
-|Framework|Server |HTML |CSS  |Javascript   |Database   |ActiveRecord |Test  |
-|---------|-------|-----|-----|-------------|-----------|-------------|------|
-|Sinatra  |Thin   |HAML |SASS |CoffeeScript |PostgreSQL |Yes          |RSpec |
+|Framework|Server |HTML |CSS  |Javascript   |Database   |Models |Helpers |ActiveRecord |Test  |
+|---------|-------|-----|-----|-------------|-----------|-------|--------|-------------|------|
+|Sinatra  |Thin   |HAML |SASS |CoffeeScript |PostgreSQL |Yes    |Yes     |Yes          |RSpec |
 
 ## Install
 
